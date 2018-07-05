@@ -1,0 +1,23 @@
+.contents {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*width: 80%;*/
+}
+.contents > div {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+.textarea {
+	display: block;
+	resize: none;
+	font-size: 20px;
+	width: 80%;
+	height: 80px;
+}
+.canvas {
+	/*width: 100%;*/
+	/*height: auto;*/
+}
